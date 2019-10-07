@@ -1,0 +1,205 @@
+	body{ 
+	background:#666; 
+	background-repeat:no-repeat;
+ }
+
+	#container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1000px;
+	height: 635px;
+	background-repeat:no-repeat;
+	background:url(../images/background.png); 
+	}
+		
+	.empty{
+		background-color: transparent;
+	}
+	.strawberry{
+		background-image:url(../images/strawberry.gif);
+		background-repeat:no-repeat;
+		}
+	.grapes{
+		background-image:url(../images/grapes.gif);
+		background-repeat:no-repeat;
+		}
+	.banana{
+		background-image:url(../images/banana.gif);
+		background-repeat:no-repeat; 
+		}
+	.raspberry {
+		background-image:url(../images/rasb.gif) ;
+		background-repeat:no-repeat;
+		}
+	.cherry {
+		background-image:url(../images/cherry.gif) ; 
+		background-repeat:no-repeat;
+		}
+	.stone {
+		background-image:url(../images/stone.gif);
+		background-repeat:no-repeat; }
+	.explosion{
+		background-image:url(../images/explosion.gif);
+			background-repeat:no-repeat; }
+	.gameover{
+		background-image:url(../images/gameover.png);
+			background-repeat: no-repeat; }
+	.orange{
+				background-image:url(../images/orange.gif);
+				background-repeat: no-repeat;
+				background-position:center;} 
+	.dig0{
+		background-image:url(../images/0.png); }
+	.dig1{
+		background-image:url(../images/1.png); }
+	.dig2{
+		background-image:url(../images/2.png); }
+	.dig3{
+		background-image:url(../images/3.png); }
+	.dig4{
+		background-image:url(../images/4.png); }
+	.dig5{
+		background-image:url(../images/5.png); }
+	.dig6{
+		background-image:url(../images/6.png); }
+	.dig7{
+		background-image:url(../images/7.png); }
+	.dig8{
+		background-image:url(../images/8.png); }
+	.dig9{
+		background-image:url(../images/9.png); }
+	
+	.sdig0{
+		background-image:url(../images/sdig0.png); }
+	.sdig1{
+		background-image:url(../images/sdig1.png); }
+	.sdig2{
+		background-image:url(../images/sdig2.png); }
+	.sdig3{
+		background-image:url(../images/sdig3.png); }
+	.sdig4{
+		background-image:url(../images/sdig4.gif); }
+	.sdig5{
+		background-image:url(../images/sdig5.png); }
+	.sdig6{
+		background-image:url(../images/sdig6.png); }
+	.sdig7{
+		background-image:url(../images/sdig7.png); }
+	.sdig8{
+		background-image:url(../images/sdig8.png); }
+	.sdig9{
+		background-image:url(../images/sdig9.png); }
+	
+	
+	.playbutton{
+		background-image: url(../images/play.png); }
+	
+	
+	.cloud0{
+		background-image:url(../images/cloud0.png); }
+	.cloud1{
+		background-image:url(../images/cloud1.png); }
+	.cloud2{
+		background-image:url(../images/cloud2.png); }
+	.cloud3{
+		background-image:url(../images/cloud3.png); }
+	.cloud4{
+		background-image:url(../images/cloud4.png); }
+		
+	.hs_title{
+	background-image:url(../images/yourscore_title.png); }
+	
+	#tcontainertitle{
+		position:absolute;
+		top:100px;
+		left:640px;
+		width:250px;
+		height:30px;
+		background-image:url(../images/highscores.png);
+	}
+	#playagain{
+		position: absolute;
+		top: 500px;
+		left: 710px;
+		height:25px;
+		width:90px; }
+	
+	#tablecontainer {
+		position:absolute;
+		top: 150px;
+		left:640px;
+		height: 300px;
+		width: 250px;
+		overflow: scroll;
+		overflow-x:hidden; /*css 3*/
+		}
+		
+.tcell1{
+		background-image:url(../images/apple.gif);
+	}
+.tcell{
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+	font-weight:bold;
+	text-align: right;
+	height: 70px;
+	width: 200px;
+	background-position:left;
+	background-repeat:no-repeat; }
+	 
+	#game{
+	position: absolute;
+	left: 640px;
+	top: 85px;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	}
+	
+	#tip {
+	position: absolute;
+	left: 13px;
+	top: 145px;
+	width: 288px;
+	height: 192px;}
+	
+	#next {
+	position: absolute;
+	left: 228px;
+	top: 118px; }
+	
+	#stats_container{
+		position: absolute;
+		height: 135px;
+		width: 254px;
+		top: 444px;
+		left: 280px;
+		 }
+		
+		
+	#stats{
+		position: absolute;
+		top: 0px;
+		left: 122px;
+		width: 125px;
+		height: 120px;
+		
+		 } 
+
+.fruitsalad{
+	background-image:url(../images/fruitsalad0.gif);}
+		
+	.stats_text{
+		background-image:url(../images/stats_text.png);
+		background-repeat:no-repeat;}
+		
+		.easy{
+			background-image:url(../images/easy.png);}
+		.medium{
+			background-image:url(../images/medium.png);}
+		.hard{
+			background-image:url(../images/hard.png);}
+		.psycho{
+			background-image:url(../images/psycho.gif);}
+		.ranking_button{
+			background:url(../images/ranking_button.png);}
